@@ -1,1 +1,9 @@
-Hello
+age = 20
+height = 179  
+name = "Diganta Roy Drik"
+are_you_student = True
+
+print("Name:", name)
+print("Age:", age, "years old")
+print("Height:", height, "cm")
+print("Student:", are_you_student)
