@@ -1,4 +1,4 @@
-# ch.ai.u4aid25067-Drik
+# Data Structures & Algorithms
 
 This repository is maintained for college assignments and coursework.
 
