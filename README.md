@@ -4,4 +4,4 @@
 - Program: B.Tech Artificial Intelligence & Data Science
 - Semester: 2
 - Course: Data Structures & Algorithms (23AID112)
-- Structure: Assignments will be uploaded week-wise and topic-wise as instructed.
+- Structure: Assignments will be uploaded week-wise and topic-wise as instructed
