@@ -23,10 +23,15 @@ A web browser stores visited pages so users can navigate backward through previo
 4. Analyze the **time complexity of push and pop operations** used in browser history management.
 
 5. **Implementation Task:**  
-   Write a program to simulate **browser history using a stack** that supports the following operations:
-   - Visit a new page  
-   - Go back to the previous page  
-   - Display the current page  
+   Write a Python program to implement a **simple stack** that supports:
+   - Push a webpage
+   - Pop the last visited webpage
+   - Display the current webpage
+
+Example operations:
+- push("google.com")
+- push("github.com")
+- pop()
 
 ---
 
@@ -56,7 +61,19 @@ A calculator program evaluates mathematical expressions entered by a user.
 4. Determine the **time complexity** of the algorithm for an expression of length **n**.
 
 5. **Implementation Task:**  
-   Write a program that uses a **stack to check whether parentheses in an expression are balanced**.
+   Write a Python program that uses a **stack to check balanced parentheses** in an expression.
+
+Example input:
+
+```
+(8 + 2) * 5
+```
+
+Output:
+
+```
+Balanced
+```
 
 ---
 
@@ -80,10 +97,10 @@ An office printer receives print requests from multiple users.
 4. Compare the **time complexity of enqueue and dequeue operations**.
 
 5. **Implementation Task:**  
-   Write a program to simulate a **printer job queue** that supports:
-   - Adding a new print job  
-   - Printing the next job  
-   - Displaying all pending jobs  
+   Write a Python program to implement a **queue for printer jobs** that supports:
+   - Add a print job
+   - Process the next print job
+   - Display all jobs in the queue
 
 ---
 
@@ -107,9 +124,17 @@ A customer support center handles service tickets submitted by users.
 4. Compare **array-based queue vs linked list queue** in terms of memory allocation.
 
 5. **Implementation Task:**  
-   Write a program to implement a **customer service ticket system using a queue** that supports:
-   - Adding a new ticket  
-   - Serving the next ticket  
-   - Displaying all pending tickets  
+   Write a Python program to implement a **simple ticket system using a queue** that supports:
+   - Add a new ticket
+   - Serve the next ticket
+   - Display pending tickets
+
+Example tickets:
+
+```
+T101
+T102
+T103
+```
 
 ---
