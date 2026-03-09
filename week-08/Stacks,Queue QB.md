@@ -2,7 +2,7 @@
 
 ---
 
-## Question 1: Browser History Management (Stack)
+## Question 1: Browser History Management 
 
 A web browser stores visited pages so users can navigate backward through previously opened pages.
 
@@ -32,7 +32,7 @@ A web browser stores visited pages so users can navigate backward through previo
 
 ---
 
-## Question 2: Arithmetic Expression Evaluation (Stack)
+## Question 2: Arithmetic Expression Evaluation 
 
 A calculator program evaluates mathematical expressions entered by a user.
 
@@ -68,7 +68,7 @@ A calculator program evaluates mathematical expressions entered by a user.
 
 ---
 
-## Question 3: Printer Job Scheduling (Queue)
+## Question 3: Printer Job Scheduling 
 
 An office printer receives print requests from multiple users.
 
@@ -97,7 +97,7 @@ An office printer receives print requests from multiple users.
 
 ---
 
-## Question 4: Customer Service Ticket System (Queue)
+## Question 4: Customer Service Ticket System 
 
 A customer support center handles service tickets submitted by users.
 
