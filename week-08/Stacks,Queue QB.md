@@ -20,9 +20,13 @@ A web browser stores visited pages so users can navigate backward through previo
 
 3. Write pseudocode for the **Back operation using a stack**.
 
-4. Compare the **time complexity of push and pop operations**.
+4. Analyze the **time complexity of push and pop operations** used in browser history management.
 
-5. If the browser stores **n visited pages**, determine the **space complexity of the stack**.
+5. **Implementation Task:**  
+   Write a program to simulate **browser history using a stack** that supports the following operations:
+   - Visit a new page  
+   - Go back to the previous page  
+   - Display the current page  
 
 ---
 
@@ -51,7 +55,8 @@ A calculator program evaluates mathematical expressions entered by a user.
 
 4. Determine the **time complexity** of the algorithm for an expression of length **n**.
 
-5. Compare the **memory usage of stack-based evaluation with recursive evaluation**.
+5. **Implementation Task:**  
+   Write a program that uses a **stack to check whether parentheses in an expression are balanced**.
 
 ---
 
@@ -74,7 +79,11 @@ An office printer receives print requests from multiple users.
 
 4. Compare the **time complexity of enqueue and dequeue operations**.
 
-5. Determine the **space complexity** if **n print jobs** are stored in the queue.
+5. **Implementation Task:**  
+   Write a program to simulate a **printer job queue** that supports:
+   - Adding a new print job  
+   - Printing the next job  
+   - Displaying all pending jobs  
 
 ---
 
@@ -97,6 +106,10 @@ A customer support center handles service tickets submitted by users.
 
 4. Compare **array-based queue vs linked list queue** in terms of memory allocation.
 
-5. Analyze the **time complexity** of adding and removing tickets.
+5. **Implementation Task:**  
+   Write a program to implement a **customer service ticket system using a queue** that supports:
+   - Adding a new ticket  
+   - Serving the next ticket  
+   - Displaying all pending tickets  
 
 ---
