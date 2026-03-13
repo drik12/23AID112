@@ -97,31 +97,29 @@ An office printer receives print requests from multiple users.
 
 ---
 
-## Question 4: Customer Service Ticket System 
+## Question 4: Customer Service Ticket System (Queue)
 
-A customer support center handles service tickets submitted by users.
+A customer support center receives service tickets submitted by users. Each ticket must be handled in the order it arrives to ensure fair service.
 
 ### System Behavior
 
-- Tickets arrive continuously  
-- The earliest ticket must be handled first  
+- Tickets arrive continuously from customers
+- The earliest ticket must be handled first
 
 ### Tasks
 
-1. Identify the appropriate data structure for this system and explain why.
+1. Identify the most suitable data structure for this system and justify your answer.
 
-2. Describe how **adding a ticket** and **serving a ticket** correspond to queue operations.
+2. Explain how **enqueue** and **dequeue** operations work in this scenario.
 
-3. Write pseudocode for **serving the next ticket**.
+3. Write pseudocode for **serving the next ticket** in the queue.
 
-4. Compare **array-based queue vs linked list queue** in terms of memory allocation.
+4. Compare the **array-based queue** and **linked list queue** implementations in terms of memory allocation and flexibility.
 
 5. **Implementation Task:**  
-   Write a Python program to implement a **customer service ticket system using a queue (linked list)** with the following operations:
+   Write a Python program to implement a **customer service ticket queue using linked list implementation** with the following operations:
 
-   - `enqueue(ticket)` – add a new ticket  
+   - `enqueue(ticket)` – add a new ticket to the queue  
    - `dequeue()` – serve the next ticket  
-   - `peek()` – display the next ticket to be served  
-   - `display()` – show all pending tickets  
-
----
+   - `peek()` – display the ticket at the front of the queue  
+   - `display()` – display all pending tickets
