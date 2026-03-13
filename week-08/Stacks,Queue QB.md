@@ -123,3 +123,10 @@ A customer support center receives service tickets submitted by users. Each tick
    - `dequeue()` – serve the next ticket  
    - `peek()` – display the ticket at the front of the queue  
    - `display()` – display all pending tickets
+### Example Tickets
+
+```
+T101
+T102
+T103
+```
