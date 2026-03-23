@@ -130,3 +130,63 @@ T101
 T102
 T103
 ```
+## Question 5: Undo/Redo Functionality in Text Editor
+
+A text editor allows users to perform actions like typing, deleting, and formatting text. It also supports **Undo** and **Redo** operations.
+
+### System Behavior
+- Users can perform actions continuously
+- Undo reverses the most recent action
+- Redo reapplies an undone action
+
+---
+
+### Tasks
+
+### 1. Identify Data Structure
+Identify the most suitable data structure(s) for implementing Undo and Redo functionality and justify your answer.
+
+---
+
+### 2. Explanation
+Explain how stacks can be used for:
+- Undo operation
+- Redo operation
+
+(Hint: Use two stacks)
+
+---
+
+### 3. Pseudocode
+Write pseudocode for the Undo operation using stacks.
+
+---
+
+### 4. Time Complexity
+Analyze the time complexity of Undo and Redo operations.
+
+---
+
+### Implementation Task
+
+Write a Python program using **two stacks (linked list implementation)** with the following operations:
+
+- perform(action) – add a new action
+- undo() – undo the last action
+- redo() – redo the last undone action
+- display() – display current actions
+
+---
+
+### Example Operations
+
+perform("Type A")  
+perform("Type B")  
+undo()  
+redo()  
+
+---
+
+### Expected Output
+
+Current Actions: Type A, Type B
